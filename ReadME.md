@@ -7,9 +7,9 @@ Access SharePoint resource using
 3. .NET Standard SharePoint client object model (CSOM) Library
 
 ```
-[Important
+Important
 
-Azure Access Control (ACS), a service of Azure Active Directory (Azure AD), has been retired on November 7, 2018. This retirement does not impact the SharePoint Add-in model, which uses the https://accounts.accesscontrol.windows.net hostname (which is not impacted by this retirement).]
+Azure Access Control (ACS), a service of Azure Active Directory (Azure AD), has been retired on November 7, 2018. This retirement does not impact the SharePoint Add-in model, which uses the https://accounts.accesscontrol.windows.net hostname (which is not impacted by this retirement).
 ```
 
 ## Azure AD Setup
