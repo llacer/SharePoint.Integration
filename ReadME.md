@@ -1,4 +1,4 @@
-# SharePoint Application Permission using Azure Access Control (ACS)
+﻿# SharePoint Application Permission using Azure Access Control (ACS)
 
 Access SharePoint resource using 
 
@@ -13,6 +13,26 @@ Azure Access Control (ACS), a service of Azure Active Directory (Azure AD), has 
 ```
 
 ## Azure AD Setup
+
+**New Registration**
+
+Name: MyStory Report
+
+Who can use this application or access this API?: Accounts in this organizational directory only (Barnardos Australia only - Single tenant)
+
+**API Permission**
+
+Add a permission
+
+Select an API → Microsoft APIs → Select SharePoint
+
+Application Permission → Select Sites.Manage.All
+
+Click 'Grant admin consent for Barnardos Australia' needs Admin access
+
+**Certificates & Secrets**
+
+Add New Client Secret {CLIENT_SECRET} and save the details, needed as settings in the client application
 
 ## SharePoint Setup
 
